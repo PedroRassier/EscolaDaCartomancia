@@ -74,9 +74,14 @@
   color: white;
 }
 
-.status-soon {
+.status-ending {
   background-color: var(--color-gold);
   color: var(--color-deep-blue);
+}
+
+.status-closed {
+  background-color: var(--color-red);
+  color: white;
 }
 
 /* ACCORDION */

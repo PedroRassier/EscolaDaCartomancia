@@ -1,0 +1,12 @@
+:root {
+  --color-deep-blue: #0f172a; /* Azul Profundo Místico */
+  --color-blue-light: #1e293b; /* Azul Secundário */
+  --color-red: #b91c1c; /* Vermelho Energia */
+  --color-red-hover: #991b1b;
+  --color-white: #f8fafc; /* Branco Suave */
+  --color-gold: #d4af37; /* Toque sutil de luxo */
+
+  --font-title: 'Cinzel', serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-body: 'Lato', sans-serif;
+}

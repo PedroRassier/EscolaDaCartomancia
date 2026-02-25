@@ -1,0 +1,60 @@
+.upcoming {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: var(--color-deep-blue);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course-table-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.course-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+}
+
+.course-row:last-child {
+  border-bottom: none;
+}
+
+.course-row.header {
+  gap: 20px;
+  font-weight: 700;
+  color: var(--color-gold);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  grid-column: 1 / -1;
+}
+
+.loading-spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #333;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

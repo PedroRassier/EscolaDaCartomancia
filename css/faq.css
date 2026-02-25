@@ -1,0 +1,9 @@
+.faq {
+  padding: 100px 20px;
+  background-color: #f1f5f9;
+}
+
+.accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}

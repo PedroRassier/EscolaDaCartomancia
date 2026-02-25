@@ -1,0 +1,28 @@
+.final-cta {
+  background:
+    linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.9)),
+    url('https://images.unsplash.com/photo-1596700863089-1731447b0137?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+.final-cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.final-cta ul {
+  list-style: none;
+  margin-bottom: 40px;
+  display: inline-block;
+  text-align: left;
+}
+.final-cta li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.final-cta li i {
+  color: var(--color-gold);
+  margin-right: 10px;
+}

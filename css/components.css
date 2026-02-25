@@ -1,0 +1,117 @@
+/* BOTÕES */
+.btn {
+  display: inline-block;
+  padding: 15px 35px;
+  border-radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  font-family: var(--font-title);
+  font-size: 0.9rem;
+}
+
+.btn-primary {
+  background-color: var(--color-red);
+  color: var(--color-white);
+  border: 2px solid var(--color-red);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-red-hover);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(185, 28, 28, 0.4);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-white);
+  color: var(--color-deep-blue);
+  transform: translateY(-3px);
+}
+
+.btn-whatsapp {
+  background-color: #25d366;
+  color: white;
+  border: none;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebc57;
+}
+
+/* COURSE CARD */
+.course-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  border-top: 5px solid var(--color-red);
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+}
+
+/* STATUS BADGES */
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.status-open {
+  background-color: #22c55e;
+  color: white;
+}
+
+.status-soon {
+  background-color: var(--color-gold);
+  color: var(--color-deep-blue);
+}
+
+/* ACCORDION */
+.accordion-item {
+  background: white;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.accordion-header {
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  color: var(--color-deep-blue);
+  transition: background 0.3s;
+}
+
+.accordion-header:hover {
+  background-color: #f8fafc;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding: 0 20px;
+  background-color: #f8fafc;
+}
+
+.accordion-content p {
+  padding: 20px 0;
+  color: #475569;
+}
